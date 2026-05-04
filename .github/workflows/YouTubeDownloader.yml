@@ -57,8 +57,8 @@ jobs:
           QUALITY = os.environ.get('QUALITY', '720p')
           
           API_ENDPOINT = "https://hub.ytconvert.org/api/download"
-          STATUS_CHECK_INTERVAL = 2
-          MAX_ATTEMPTS = 90
+          STATUS_CHECK_INTERVAL = 3
+          MAX_ATTEMPTS = 200
           
           # ========== SUPPORTED QUALITIES ==========
           VIDEO_QUALITIES = ['144p', '360p', '480p', '720p', '1080p']
